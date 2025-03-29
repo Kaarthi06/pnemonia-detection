@@ -1,0 +1,11 @@
+__pycache__/
+*.keras
+.vscode/
+# Ignore model files (optional)
+Model/
+
+# Ignore dataset files
+datasets/
+
+# Ignore system files
+__pycache__/
