@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # ✅ Enable CORS for all routes
 
 # Load trained model
-model = tf.keras.models.load_model("pneumonia_detection_model.keras")
+model = tf.keras.models.load_model("models/pneumonia_detection_model.keras")
 
 def preprocess_image(image):
     """Preprocess uploaded image for model prediction."""
